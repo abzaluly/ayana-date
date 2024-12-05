@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос</title>
+    <link rel="stylesheet" href="poll.css">
+</head>
+<body>
+    <div class="poll-container">
+        <h1>A small survey🌸</h1>
+        <p>Here are all my types of dates that I would like to do when I meet you.<br>
+            Look, if there are any that you don't like, mark them. I wrote <br>
+            everything that I can organize, so don't worry.</p>
+
+        <form id="poll-form" action="https://formspree.io/f/xpwznwqv" method="POST">
+
+            <!-- Вопрос 1 -->
+            <div class="question">
+                <img src="https://i.pinimg.com/originals/80/36/0f/80360f7b87a6905c09085d394a7c19b4.jpg" alt="Фото 1">
+                <p>Football date?</p>
+                <input type="radio" name="football-date" value="okeee" required> okeee<br>
+                <input type="radio" name="football-date" value="guess no"> guess no<br>
+            </div>
+
+            <!-- Вопрос 2 -->
+            <div class="question">
+                <img src="https://i.pinimg.com/236x/75/20/76/752076a836a9fa304a3823d874df48ba.jpg" alt="Фото 2">
+                <p>Plasticine date?</p>
+                <input type="radio" name="plasticine-date" value="okeee" required> okeee<br>
+                <input type="radio" name="plasticine-date" value="guess no"> guess no<br>
+            </div>
+
+            <!-- Вопрос 3 -->
+            <div class="question">
+                <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/full_scottish_skillet_03331_16x9.jpg" alt="Фото 3">
+                <p>Breakfast together?</p>
+                <input type="radio" name="breakfast" value="okeee" required> okeee<br>
+                <input type="radio" name="breakfast" value="guess no"> guess no<br>
+            </div>
+
+            <!-- Вопрос 4 -->
+            <div class="question">
+                <img src="https://i.pinimg.com/736x/fb/d8/04/fbd804c0ab4344507e93a1c9253fdf39.jpg" alt="Фото 3">
+                <p>Walk holding hands?</p>
+                <input type="radio" name="walk" value="okeee" required> okeee<br>
+                <input type="radio" name="walk" value="guess no"> guess no<br>
+            </div>
+
+            <!-- Вопрос 5 -->
+            <div class="question">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQddPdNk8ZrTz1t9p9WbITu9bndVyc_Z4XlFQ&s" alt="Фото 3">
+                <p>Cinema/Theatre?</p>
+                <input type="radio" name="cinema" value="Cinema" required> Cinema<br>
+                <input type="radio" name="cinema" value="Theatre"> Theatre<br>
+                <input type="radio" name="cinema" value="guess no"> guess no<br>
+            </div>            
+
+            <!-- Вопрос 6 -->
+            <div class="question">
+                <img src="https://cdn.shopify.com/s/files/1/1159/6308/files/date_night_59e63994-80dd-434e-975c-47c355391bd6_480x480.jpg?v=1674200004" alt="Фото 3">
+                <p>Art Date?</p>
+                <input type="radio" name="Art" value="okeee" required> okeee<br>
+                <input type="radio" name="Art" value="guess no"> guess no<br>
+            </div>  
+
+            <!-- Вопрос 7 -->
+            <div class="question">
+                <img src="https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjA0MjA4MzcwMTAwNDc5ODg1/love-letters-for-her.jpg" alt="Фото 3">
+                <p>Letter? (let's write letters to each other to read in difficult times)</p>
+                <input type="radio" name="Letter" value="okeee" required> okeee<br>
+                <input type="radio" name="Letter" value="guess no"> guess no<br>
+            </div> 
+
+            <div class="question">
+                <label for="other">Any wishes? feedback plsssss</label>
+                <textarea id="other" name="other" rows="3" placeholder="Your answer..."></textarea>
+            </div>
+
+            <!-- Кнопка отправки -->
+            <button type="submit" class="submit-button">Send</button>
+        </form>
+    </div>
+
+    <script src="poll.js"></script>
+</body>
+</html>

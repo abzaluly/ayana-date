@@ -1,0 +1,45 @@
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff80aa;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ff4d88;
+    margin-bottom: 2rem;
+}
+
+.btn-pink {
+    background-color: #ff80aa;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #ff4d88;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-pink {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
